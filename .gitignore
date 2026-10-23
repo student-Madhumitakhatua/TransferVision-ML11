@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+data/oxford-iiit-pet/
+data/custom_dataset/
+models/*.pth
+reports/*.csv
+reports/*.json
+reports/figures/*.png
