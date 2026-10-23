@@ -1,0 +1,30 @@
+{
+  "device": "cpu",
+  "classes": [
+    "Abyssinian",
+    "Bengal",
+    "Birman"
+  ],
+  "epochs": 3,
+  "batch_size": 16,
+  "results": [
+    {
+      "experiment": "Feature extraction",
+      "test_accuracy_percent": 97.78,
+      "training_time_seconds": 47.06,
+      "best_validation_accuracy_percent": 95.56
+    },
+    {
+      "experiment": "Fine-tuning",
+      "test_accuracy_percent": 94.44,
+      "training_time_seconds": 65.67,
+      "best_validation_accuracy_percent": 96.67
+    },
+    {
+      "experiment": "CNN from scratch",
+      "test_accuracy_percent": 60.0,
+      "training_time_seconds": 87.57,
+      "best_validation_accuracy_percent": 61.11
+    }
+  ]
+}

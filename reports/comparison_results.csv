@@ -1,0 +1,4 @@
+experiment,test_accuracy_percent,training_time_seconds,best_validation_accuracy_percent
+Feature extraction,97.78,47.06,95.56
+Fine-tuning,94.44,65.67,96.67
+CNN from scratch,60.0,87.57,61.11
